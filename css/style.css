@@ -220,6 +220,22 @@ img{
   height: 100%;
 }
 
+.akad-tgl{
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.akad-tgl span,
+.akad-tgl p{
+  color: #466089;
+  font-family: 'shafron';
+}
+
 #bride-groom{
     width: 100vw;
     height: max-content;
@@ -398,23 +414,25 @@ img{
 
 .date img{
   width: 100%;
+  margin-top: 100px;
 }
 
 .text-block2{
   position: absolute;
-  top: 23%;
+  top: 0;
   width: 100vw !important;
 }
 
 .waktu{
   display: flex;
+  flex-direction: column;
   width: 100vw;
 }
 
 .waktu .akad,
 .waktu .sabtu,
 .waktu .resepsi{
-  width: 33.33%;
+  width: 100%;
 }
 
 .waktu .akad{
@@ -440,11 +458,12 @@ img{
 }
 
 .waktu .resepsi p{
-  text-align: left;
+  text-align: center;
 }
 
 .waktu .sabtu{
   text-align: center !important;
+  margin-top: 55px;
 }
 
 .waktu .sabtu p{
@@ -457,6 +476,7 @@ img{
 .kediaman{
   text-align: center;
   padding: 20px 60px;
+  margin-top: 40px;
 }
 
 .kediaman p{
@@ -1162,12 +1182,12 @@ img{
 
   .waktu .resepsi span,
   .waktu .akad span{
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .waktu .resepsi p,
   .waktu .akad p{
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 
   .waktu .sabtu p{
